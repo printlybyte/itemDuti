@@ -22,8 +22,8 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private List<Person> mList=new ArrayList<>();
-//    public String url = "http://api.meituan.com/mmdb/movie/v2/list/rt/order/coming.json?ci=1&limit=12&token=&__vhost=api.maoyan.com&utm_campaign=AmovieBmovieCD-1&movieBundleVersion=6801&utm_source =小蜜＆utm_medium = Android和utm_term = 6.8.0＆的utm_content = 868030022327462＆净值= 255＆dModel = MI％205 UUID = 0894DE03C76F6045D55977B6D4E32B7F3C6AAB02F9CEA042987B380EC5687C43与纬度= 40.100673＆LNG = 116.378619＆__ skck = 6a375bce8c66a0dc293860dfa83833ef＆__ skts = 1463704714271＆__贼鸥= 7e01cf8dd30a179800a7a93979b430b2＆__ skno = 1a0b4a9b-44ec-42fc-B110-ead68bcc2824＆__ skcy = sXcDKbGi20CGXQPPZvhCU3％2FkzdE％3D";
-    public String url = "http:192.168.155.211/movie/coming.json";
+    public String url = "http://api.meituan.com/mmdb/movie/v2/list/rt/order/coming.json?ci=1&limit=12&token=&__vhost=api.maoyan.com&utm_campaign=AmovieBmovieCD-1&movieBundleVersion=6801&utm_source =小蜜＆utm_medium = Android和utm_term = 6.8.0＆的utm_content = 868030022327462＆净值= 255＆dModel = MI％205 UUID = 0894DE03C76F6045D55977B6D4E32B7F3C6AAB02F9CEA042987B380EC5687C43与纬度= 40.100673＆LNG = 116.378619＆__ skck = 6a375bce8c66a0dc293860dfa83833ef＆__ skts = 1463704714271＆__贼鸥= 7e01cf8dd30a179800a7a93979b430b2＆__ skno = 1a0b4a9b-44ec-42fc-B110-ead68bcc2824＆__ skcy = sXcDKbGi20CGXQPPZvhCU3％2FkzdE％3D";
+   // public String url = "http:192.168.155.211/movie/coming.json";
 
     OkHttpClient client;
 
